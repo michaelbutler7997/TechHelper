@@ -67,7 +67,7 @@ public class MapsActivity extends FragmentActivity implements
                 stringBuilder.append("&radius=5000");
                 stringBuilder.append("&type=electronics_store");
                 stringBuilder.append("&sensor=true");
-                stringBuilder.append("&key=AIzaSyB9YpeOpGyuB4qgickS7k14YPoXcVF8K_M");
+                stringBuilder.append("&key="+BuildConfig.GMP_KEY);
 
                 //fetches data for nearby electronic store areas
                 String url = stringBuilder.toString();
