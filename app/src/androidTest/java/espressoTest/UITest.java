@@ -38,7 +38,7 @@ public class UITest {
 
     @Test
     public void populatesList(){
-        //cheeks if anything displayed in the listview
+        //checks if anything displayed in the listview
         onData(anything()).inAdapterView(withId(R.id.listView)).atPosition(0).check(matches(isDisplayed()));
     }
 }
